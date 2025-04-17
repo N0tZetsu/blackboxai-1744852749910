@@ -13,9 +13,13 @@ client_scripts {
 
 files {
     'html/index.html',
-    'html/style.css',
-    'html/script.js',
-    'html/img/*.png'
+    'html/css/style.css',
+    'html/js/script.js',
+    'html/images/money.png',
+    'html/images/bank.png',
+    'html/images/id.png',
+    'html/images/On.png',
+    'html/images/Off.png'
 }
 
 dependencies {
