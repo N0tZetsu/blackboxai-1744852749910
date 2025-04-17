@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESX Custom HUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hud-container">
+        <!-- Money and Bank Section -->
+        <div class="hud-section" id="money-section">
+            <div class="money-container">
+                <img src="img/money.png" alt="Money" class="icon money-icon">
+                <span id="money">$0</span>
+            </div>
+            <div class="bank-container">
+                <img src="img/bank.png" alt="Bank" class="icon bank-icon">
+                <span id="bank">$0</span>
+            </div>
+        </div>
+
+        <!-- Job Section -->
+        <div class="hud-section" id="job-section">
+            <span id="job-name">Minero - Empleado</span>
+        </div>
+
+        <!-- Voice Indicator -->
+        <div class="hud-section" id="voice-section">
+            <img src="img/mic-inactive.png" alt="Voice" id="voice-icon" class="icon voice-icon">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
